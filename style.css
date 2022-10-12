@@ -1,0 +1,312 @@
+/* * {
+  outline: 1px solid limegreen !important;
+} */
+body {
+  padding: 0 10%;
+  background-image: url(https://img.buenamente.co/id-6351d4df-86a3-433e-8e1b-1cfeb50bcac4/raw/s-72Nfyn9eBgHIH5RAt6VqqGQFfw7.gif);
+  background-attachment: fixed;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Harry_Potter_Nimbus_2000_andGoldenSnitchCursor.png),
+    pointer;
+
+}
+
+#title {
+  text-align: center;
+  font-size: xx-large;
+  font-size-adjust: initial;
+  font-family: 'Harry Potter', serif;
+  @import url('https://fonts.cdnfonts.com/css/harry-potter');
+  color: rgb(198, 191, 52);
+  -webkit-text-stroke: 1.5px rgb(90, 90, 27);
+}
+
+#subTitle {
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(104, 106, 106);
+  font-family: 'NIGHTMARE PILLS', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  @import url('https://fonts.cdnfonts.com/css/nightmare-pills');
+}
+
+#container-gallery {
+  width: 100%;
+  display: inline-flex;
+  margin-right: 5em;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.imageContainers {
+  width: 39%;
+  height: 39%;
+  margin: 1%;
+  display: flex;
+  border-radius: 20px;
+
+}
+
+#imageContainers {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+
+}
+
+.secondImages {
+  display: flex;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.buttonImages {
+  font-family: 'SPQR', sans-serif;
+  @import url('https://fonts.cdnfonts.com/css/spqr');
+  font-size: 18px;
+  color: white;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.buttonImages:hover {
+
+  transform: scale(1.15);
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png),
+    pointer !important
+}
+
+.fourHouses {
+
+  display: flex;
+  width: 110%;
+  align-items: center;
+  margin-right: 12%;
+}
+
+
+
+.spellsFooter {
+  align-items: center;
+  align-content: center;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png),
+    pointer
+}
+
+.indexButtonDiv {
+  align-items: baseline;
+  text-align: center;
+  opacity: 0.5;
+  margin-top: 18%;
+}
+
+.indexButtonDiv:hover {
+  transform: scale(1.15);
+  opacity: 1;
+
+}
+
+.contenedor {
+  width: 15%;
+  height: 20%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  opacity: 0, 5;
+
+}
+
+.centrado {
+  font-size: 20px;
+  -webkit-text-stroke: 1px rgb(220, 192, 50);
+  color: rgb(9, 8, 7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.centrado:hover {
+  opacity: 1;
+  font-family: 'Goudy Medieval Alternate', sans-serif;
+  font-size: 23px;
+  font-weight: 5px bold;
+  @import url('https://fonts.cdnfonts.com/css/goudy-mediaeval');
+
+
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png),
+    pointer
+}
+
+.footer {
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png),
+    pointer
+}
+
+.allTitles {
+  color: white;
+  text-align: center;
+  font-family: 'AuldMagick Bold', sans-serif;
+  font-size: 100px;
+  @import url('https://fonts.cdnfonts.com/css/auldmagick');
+
+
+}
+
+.subTitleAll {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'NIGHTMARE PILLS', sans-serif;
+  @import url('https://fonts.cdnfonts.com/css/nightmare-pills');
+}
+
+
+
+.allTables {
+  border: 5px inset rgb(110, 79, 18, 0.92);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 2%;
+  padding-left: 2%;
+  height: 50%;
+  max-width: 600px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  background-image: url("./img/fondoperg OP.png");
+  border-radius: 30px 20px 30px 20px;
+  line-height: 1.5;
+  padding-left: 15px;
+  padding-right: 15px;
+
+
+}
+
+.curiosityTable {
+  border: 5px inset rgb(110, 79, 18, 0.92);
+  margin: 2%;
+  padding-left: 2%;
+  height: 50%;
+  width: 70%;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  background-image: url("./img/fondoperg OP.png");
+  border-radius: 30px 20px 30px 20px;
+
+}
+
+.curiosityTable img {
+  width: 80%;
+  height: 80%;
+  margin-left: 8%;
+  margin-right: 8%;
+
+}
+
+
+.allTables img {
+  width: 250px;
+  height: 250px;
+
+}
+
+
+footer {
+  text-align: center;
+  color: white;
+  width: 40%;
+  height: 40px;
+  position: relative;
+  bottom: 0;
+  margin-top: 20%;
+  display: block;
+  margin-left: 30%;
+  font-family: 'BV Cursive Ital', sans-serif;
+  font-size: 23px;
+  @import url('https://fonts.cdnfonts.com/css/bv-rondes');
+}
+
+.footerGit img {
+
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  filter: invert(0.9) contrast(80%);
+
+}
+
+.footerGit img:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+
+}
+
+a {
+  color: aliceblue;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Harry_Potter_Nimbus_2000_andGoldenSnitchPointer.png),
+    pointer !important
+}
+
+
+@media screen and (max-width: 670px) {
+
+  .allTables {
+
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .allTitles {
+    font-size: 50px;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+
+  .allTables img {
+
+    width: 300px;
+    height: 300px;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .allTitles {
+    font-size: 60px;
+  }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .fourHouses {
+
+    width: 100%;
+
+  }
+
+}
